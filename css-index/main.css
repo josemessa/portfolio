@@ -1,63 +1,73 @@
-.main{
-    height: 660px;    position: relative;
-.main-nav{
+.main {
+  height: 660px;
+  position: relative;
+  .main-nav {
     display: flex;
     flex-direction: column;
     gap: 5px;
-  
-    a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: grey;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: grey;
+      width: 120px;
+      height: 60px;
+      background-color: rgb(31, 31, 31);
+      &:hover {
+        color: aqua;
+      }
+    }
+    div {
+      width: 120px;
+      height: 150px;
+      background-color: black;
+      box-shadow: 2px 2px 5px rgb(255, 0, 102);
+
+      img {
         width: 120px;
-        height: 60px;
-        background-color: rgb(18, 18, 18);
-        &:hover{
-            color: aqua;
-        }
+        background-color: black;
+      }
     }
-    div {width: 120px;
-        height: 150px;
-        background-color: rgb(18, 18, 18);
-        box-shadow: 2px 2px 5px rgb(255, 0, 102);
-        
-        img{
-        width: 120px;
-        background-color:rgb(18, 18, 18); 
-        ;
-    }
+  }
 }
+.main-nav p {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-size: 25px;
+  color: white;
+  font-family: var(--font-title);
 }
+.interest-links {
+  display: flex;
+  width: 120px;
+  fill: white;
+  a:nth-child(1) {
+    background-color: black;
+  }
+  a:nth-child(2) {
+    background-color: black;
+  }
 }
-.main-nav p{
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-family: var(--font-title);
+a:hover {
+  fill: aqua;
 }
-.interest-links{
-    display: flex;
-    width: 120px;
-    fill: grey;
-    a:hover{
-       fill: aqua;
-    }
-}
-.big-logo{
-    position: absolute;
-   
-    top:-400px;
-    right: -400px;
-    filter: drop-shadow(15px 15px 5px rgb(255, 0, 102));
-    animation: mainlogo 5s forwards;
-    
+
+.big-logo {
+  position: absolute;
+
+  top: -400px;
+  right: -400px;
+  filter: drop-shadow(15px 15px 5px rgb(255, 0, 102));
+  animation: mainlogo 5s forwards;
 }
 
 @keyframes mainlogo {
-    from { 
-        transform: translate(0, 0);       
-        }
-    to {
-        transform: translate(-200px, 200px);             
-  }}
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-200px, 200px);
+  }
+}
