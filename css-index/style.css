@@ -16,10 +16,9 @@
 }
 html {
   scroll-behavior: smooth;
+  font-family: 'Love Ya Like A Sister', cursive;  
   font-family: 'Passion One', sans-serif;
   font-family: 'M PLUS Code Latin', monospace;
-
-  
 }
 li {
   list-style: none;

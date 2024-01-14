@@ -14,13 +14,15 @@
       width: 120px;
       height: 60px;
       background-color: rgb(31, 31, 31);
+      box-shadow: 2px 2px 5px rgb(0, 0, 0);
       &:hover {
         color: aqua;
       }
     }
     div {
       width: 120px;
-      height: 150px;
+      height: 190px;
+      gap: 5px;
       background-color: black;
       box-shadow: 2px 2px 5px rgb(255, 0, 102);
 
@@ -30,18 +32,45 @@
       }
     }
   }
+  p:nth-child(1){
+    animation: presentacion 4s;
+  }
+  p:nth-child(2){
+    opacity: 0;
+    animation: presentacion 4s forwards;
+    animation-delay: 2s;  
+
+  }
+  p:nth-child(3){
+    opacity: 0;
+    animation: presentacion 4s forwards;
+    animation-delay: 4s;  
+
+  
+  }
 }
-.main-nav p {
+.main-nav{
+  position: fixed;
+  div.interest-links{
+    height:4000px;
+  }
+}
+.logo-nombre p {
   display: flex;
   justify-content: center;
   background-color: black;
   font-size: 25px;
   color: white;
   font-family: var(--font-title);
+  &:nth-child(3){
+    font-size: 15px;
+    text-transform: uppercase;
+  }
 }
 .interest-links {
   display: flex;
   width: 120px;
+  height: 120px;
   fill: white;
   a:nth-child(1) {
     background-color: black;
@@ -59,7 +88,7 @@ a:hover {
 
   top: -400px;
   right: -400px;
-  filter: drop-shadow(15px 15px 5px rgb(255, 0, 102));
+  filter: drop-shadow(15px 15px 5px rgb(250, 49, 129));
   animation: mainlogo 5s forwards;
 }
 
@@ -72,4 +101,28 @@ a:hover {
     transform: translate(-200px, 200px);
     opacity: 1;
   }
+}
+.present{
+  display: flex;
+  font-family: 'Love Ya Like A Sister', cursive;
+  flex-direction: column;
+  position: absolute;
+  width: 900px;
+  left: 15%;
+  top: 35%;
+  color: white;
+  font-size: 60px;
+}
+@keyframes presentacion{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+@keyframes presentacion-2{
+  from{
+    opacity: 0;
+    transform: translate(0, 0);
+}
+  to{opacity: 1;}
 }
