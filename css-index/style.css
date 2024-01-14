@@ -1,3 +1,6 @@
+:root {
+ --color-nav:rgb(53, 53, 53);
+}
 *:where(
     :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
   ) {
@@ -10,6 +13,7 @@
 html {
   scroll-behavior: smooth;
   font-family: "Roboto";
+  
 }
 li {
   list-style: none;
@@ -17,4 +21,9 @@ li {
 img {
   max-width: 100%;
   height: auto;
+}
+body{ 
+  background-image: url(../elements/background.jpg;);
+  background-size: cover;
+  background-position: center center;
 }
