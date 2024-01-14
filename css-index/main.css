@@ -66,8 +66,10 @@ a:hover {
 @keyframes mainlogo {
   from {
     transform: translate(0, 0);
+    opacity: 0;
   }
   to {
     transform: translate(-200px, 200px);
+    opacity: 1;
   }
 }
