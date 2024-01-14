@@ -1,18 +1,63 @@
+.main{
+    height: 660px;    position: relative;
 .main-nav{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+  
     a{
         display: flex;
         align-items: center;
         justify-content: center;
-        color: lightgrey;
+        color: grey;
         width: 120px;
-        height: 80px;
+        height: 60px;
         background-color: rgb(18, 18, 18);
+        &:hover{
+            color: aqua;
+        }
     }
-    img{
+    div {width: 120px;
+        height: 150px;
+        background-color: rgb(18, 18, 18);
+        box-shadow: 2px 2px 5px rgb(255, 0, 102);
+        
+        img{
         width: 120px;
         background-color:rgb(18, 18, 18); 
-    };
+        ;
+    }
 }
+}
+}
+.main-nav p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: var(--font-title);
+}
+.interest-links{
+    display: flex;
+    width: 120px;
+    fill: grey;
+    a:hover{
+       fill: aqua;
+    }
+}
+.big-logo{
+    position: absolute;
+   
+    top:-400px;
+    right: -400px;
+    filter: drop-shadow(15px 15px 5px rgb(255, 0, 102));
+    animation: mainlogo 5s forwards;
+    
+}
+
+@keyframes mainlogo {
+    from { 
+        transform: translate(0, 0);       
+        }
+    to {
+        transform: translate(-200px, 200px);             
+  }}
