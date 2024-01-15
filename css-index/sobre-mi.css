@@ -1,8 +1,13 @@
 .sobre-mi{
+  position: relative;
+  height: 920px;
+  width: 100%;
+  background-image: url(../elements/sobre-mi-back.jpg);
+  background-size: cover;
+  background-position: center;
+   img{
+    display: flex;
+    width: 400px;
 
-    height: 600px;
-    width: 1600px;
-    border: 1px;
-    border-color: white solid;
-
+   }
 }

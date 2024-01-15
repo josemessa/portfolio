@@ -1,6 +1,11 @@
 .main {
-  height: 660px;
+  height: 920px;
+  max-width: 100%;
   position: relative;
+  background-image: url(../elements/background2.jpg);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
   .main-nav {
     display: flex;
     flex-direction: column;
@@ -15,7 +20,7 @@
       height: 60px;
       /* box-shadow: 2px 2px 5px rgb(0, 0, 0); */
       &:hover {
-        color: aqua;
+        text-shadow: 5px 5px 5px aqua;
       }
     }
     div {
@@ -29,10 +34,10 @@
   }
 
 }
-.main-nav{
+/* .main-nav{
   position: fixed;
 
-}
+} */
 .logo-nombre{
   /* background-color: rgb(33, 33, 33); */
   /* box-shadow: 2px 2px 5px rgb(255, 0, 102); */
@@ -41,10 +46,12 @@
    justify-content: center;
    font-size: 25px;
    color: white;
-   font-family: var(--font-title);
+   font-family: var(--font-text);
    &:nth-child(3){
      font-size: 15px;
      text-transform: uppercase;
+     font-family: var(--font-title);
+
    }
 }
 }
@@ -64,7 +71,7 @@ a:hover {
 
   top: -400px;
   right: -400px;
-  filter: drop-shadow(15px 15px 5px rgb(250, 49, 129));
+  filter: drop-shadow(20px 20px 5px rgb(0, 0, 0));
   animation: mainlogo 5s forwards;
 }
 
@@ -85,7 +92,7 @@ a:hover {
   position: absolute;
   width: 900px;
   left: 15%;
-  top: 35%;
+  top: 30%;
   color: white;
   font-size: 60px;
   p:nth-child(1){
@@ -117,4 +124,23 @@ a:hover {
     transform: translate(0, 0);
 }
   to{opacity: 1;}
+}
+
+.contactame{
+  display: flex;
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  justify-content: center;
+  color: white;
+  width: 110px;
+  border: 1px solid;
+  border-color: white ;
+  padding: 10px;
+  cursor: pointer;
+   &:hover{
+    /* color: aqua; */
+    border-color:aqua;
+    box-shadow: 10px 10px 10px aqua;
+  }
 }

@@ -27,8 +27,27 @@ img {
   max-width: 100%;
   height: auto;
 }
+a{
+  cursor: pointer;
+}
 body{ 
-  background-image: url(../elements/background2.jpg);
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+
+}
+.idiomas{
+display: flex;
+gap: 10px;
+  color: white;
+  text-shadow: black;
+  position: fixed;
+  bottom:5%;
+ right: 3%;
+   img{
+    height: 40px;
+   }
+   p{
+    display: flex;
+    justify-content: center;
+   } 
 }
