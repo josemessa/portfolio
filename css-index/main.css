@@ -10,11 +10,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      color: grey;
+      color: lightgrey;
       width: 120px;
       height: 60px;
-      background-color: rgb(31, 31, 31);
-      box-shadow: 2px 2px 5px rgb(0, 0, 0);
+      /* box-shadow: 2px 2px 5px rgb(0, 0, 0); */
       &:hover {
         color: aqua;
       }
@@ -23,61 +22,38 @@
       width: 120px;
       height: 190px;
       gap: 5px;
-      background-color: black;
-      box-shadow: 2px 2px 5px rgb(255, 0, 102);
-
-      img {
+            img {
         width: 120px;
-        background-color: black;
       }
     }
   }
-  p:nth-child(1){
-    animation: presentacion 4s;
-  }
-  p:nth-child(2){
-    opacity: 0;
-    animation: presentacion 4s forwards;
-    animation-delay: 2s;  
 
-  }
-  p:nth-child(3){
-    opacity: 0;
-    animation: presentacion 4s forwards;
-    animation-delay: 4s;  
-
-  
-  }
 }
 .main-nav{
   position: fixed;
-  div.interest-links{
-    height:4000px;
-  }
+
 }
-.logo-nombre p {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  font-size: 25px;
-  color: white;
-  font-family: var(--font-title);
-  &:nth-child(3){
-    font-size: 15px;
-    text-transform: uppercase;
-  }
+.logo-nombre{
+  /* background-color: rgb(33, 33, 33); */
+  /* box-shadow: 2px 2px 5px rgb(255, 0, 102); */
+  p {
+   display: flex;
+   justify-content: center;
+   font-size: 25px;
+   color: white;
+   font-family: var(--font-title);
+   &:nth-child(3){
+     font-size: 15px;
+     text-transform: uppercase;
+   }
 }
+}
+
 .interest-links {
   display: flex;
   width: 120px;
   height: 120px;
   fill: white;
-  a:nth-child(1) {
-    background-color: black;
-  }
-  a:nth-child(2) {
-    background-color: black;
-  }
 }
 a:hover {
   fill: aqua;
@@ -112,6 +88,22 @@ a:hover {
   top: 35%;
   color: white;
   font-size: 60px;
+  p:nth-child(1){
+    animation: presentacion 4s;
+  }
+  p:nth-child(2){
+    opacity: 0;
+    animation: presentacion 4s forwards;
+    animation-delay: 2s;  
+
+  }
+  p:nth-child(3){
+    opacity: 0;
+    animation: presentacion 4s forwards;
+    animation-delay: 4s;  
+
+  
+  }
 }
 @keyframes presentacion{
   from{opacity: 0;}
