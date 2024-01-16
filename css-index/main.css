@@ -1,15 +1,22 @@
 .main {
+  display: flex;
   height: 920px;
   max-width: 100%;
   position: relative;
-  background-image: url(../elements/background2.jpg);
-  background-size: cover;
-  background-position: center center;
   overflow: hidden;
+  .divisor{ 
+    margin-inline: auto;
+    margin-top: auto;
+    width: 80%;
+    height: 1px;
+    background-color: grey;
+   }
+ 
+
   .main-nav {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 5px; 
 
     a {
       display: flex;
@@ -95,6 +102,7 @@ a:hover {
   top: 30%;
   color: white;
   font-size: 60px;
+  filter: drop-shadow(20px 20px 3px rgb(0, 0, 0));
   p:nth-child(1){
     animation: presentacion 4s;
   }
@@ -129,14 +137,15 @@ a:hover {
 .contactame{
   display: flex;
   position: absolute;
+  font-size: 20px;
   left: 20%;
   top: 70%;
   justify-content: center;
   color: white;
-  width: 110px;
+  width: 130px;
   border: 1px solid;
   border-color: white ;
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
    &:hover{
     /* color: aqua; */
@@ -144,3 +153,4 @@ a:hover {
     box-shadow: 10px 10px 10px aqua;
   }
 }
+

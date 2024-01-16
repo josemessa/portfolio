@@ -2,6 +2,9 @@
  --color-nav:rgb(53, 53, 53);
  --font-title:'Passion One', sans-serif;
  --font-text: 'M PLUS Code Latin', monospace;
+ --size-title: 50px;
+ --color-title:white;
+ --size-text:27px;
 }
 
 
@@ -31,8 +34,9 @@ a{
   cursor: pointer;
 }
 body{ 
+  background-image: url(../elements/background2.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
 
 }
 .idiomas{

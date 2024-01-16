@@ -5,6 +5,15 @@
   background-image: url(../elements/sobre-mi-back.jpg);
   background-size: cover;
   background-position: center;
+  
+  h2{
+    color:var(--color-title);
+    font-size:var(--size-title) ;
+  }
+  p{
+    color: white;
+    text-shadow:  5px 5px 5px rgb(0, 255, 255);;
+  }
    img{
     display: flex;
     width: 400px;

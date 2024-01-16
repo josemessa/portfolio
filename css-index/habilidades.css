@@ -1,0 +1,51 @@
+.habilidades {
+  display: flex;
+  position: relative;
+  height: 700px;
+  width: 1200px;
+  left: 15%;
+  
+ 
+  h2 {
+    font-size: var(--size-title);
+    color: var(--color-title);
+    filter: drop-shadow(10px 10px 3px rgb(0, 0, 0));
+  }
+  p {
+    font-size: var(--size-text);
+    color: white;
+  }
+  .lenguajes {
+    display: flex;
+    position: absolute;
+  }
+  h3 {
+    display: flex;
+    color: var(--color-title);
+    font-size: var(--size-title);
+    filter: drop-shadow(10px 10px 3px rgb(0, 0, 0));
+  }
+  div{
+    display: flex;
+    gap: 50px;
+    img {
+      filter: drop-shadow(20px 20px 3px rgb(0, 0, 0));
+      height: 120px;
+    }
+  }
+}
+
+.skills{
+  display: flex;
+  position: absolute;
+  top: 7%;
+  flex-direction: column;
+}
+.lenguajes{
+  bottom: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+

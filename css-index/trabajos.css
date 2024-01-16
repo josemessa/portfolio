@@ -1,0 +1,13 @@
+.trabajos{
+    height: 1000px;
+    display: flex;
+    position: relative;
+    .divisor{      
+        margin-inline: auto;
+        
+        width: 80%;
+        height: 1px;
+        background-color: grey;
+       }
+     
+}
