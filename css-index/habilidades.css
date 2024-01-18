@@ -1,9 +1,19 @@
 .habilidades {
   display: flex;
+  flex-direction: column;
   position: relative;
   height: 700px;
-  width: 1200px;
-  left: 15%;
+  width: 80%;
+  margin-inline: auto;
+  margin-top: 50px;
+  &::after{ 
+    content: "";
+    margin-top: auto;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 2px black;
+   }
   
  
   h2 {
@@ -28,9 +38,13 @@
   div{
     display: flex;
     gap: 50px;
+    p{
+      filter: drop-shadow(20px 20px 3px rgb(0, 0, 0));
+    }
     img {
       filter: drop-shadow(20px 20px 3px rgb(0, 0, 0));
       height: 120px;
+
     }
   }
 }
@@ -49,3 +63,11 @@
 
 }
 
+section.habilidades > img{
+  display: flex;
+  width: 200px;
+  position: absolute;
+  right: 0;
+  
+  
+}
