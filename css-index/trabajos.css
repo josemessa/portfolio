@@ -27,24 +27,24 @@
     }
     .grid-covers{
         display: grid;
+        gap: 30px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        div{
+          display: flex;
+        box-shadow: 15px 15px 5px rgb(32, 32, 32);
+        }
         
     }
     .grid-web{
-      display: flex;
-      gap: 100px;
+      row-gap: 30px;
+      column-gap: 40px;
+      display: grid;
+      grid-template-columns:1fr 1fr;
       
+      div{
+        display: flex;
+      box-shadow: 15px 15px 5px rgb(32, 32, 32);
     }
-    .grid1 div{
-      display: flex;
-     margin-bottom: 25px;
-     box-shadow: 15px 15px 5px rgb(32, 32, 32);
-    }
-    .grid2 div{
-      display: flex;
-     margin-bottom: 25px;
-     box-shadow: 15px 15px 5px rgb(32, 32, 32);
-    }
-
+  }
        
