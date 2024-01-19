@@ -2,25 +2,25 @@
   position: relative;
   width: 80%;
   margin-inline: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-block: 90px;
 
   
  
   h2 {
     font-size: var(--size-title);
-    color: var(--color-title);
-    
+    color: var(--color-title);    
   }
   p {
     font-size: var(--size-text);
     color:var(--color-text);
+    filter: drop-shadow(5px 5px 3px rgb(52, 52, 52));
   }
   .lenguajes {
     display: flex;
   }
   h3 {
-    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;display: flex;
     color: var(--color-title);
     font-size: var(--size-title);
     
@@ -28,9 +28,8 @@
   div{
     display: flex;
     gap: 50px;
-    p{
-      filter: drop-shadow(5px 5px 3px rgb(52, 52, 52));
-    }
+    margin-inline: auto;
+   
     img {
       filter: drop-shadow(5px 5px 3px rgb(61, 61, 61));
       height: 120px;
@@ -53,11 +52,3 @@
 
 }
 
-section.habilidades > img{
-  display: flex;
-  width: 200px;
-  position: absolute;
-  right: 0;
-  
-  
-}

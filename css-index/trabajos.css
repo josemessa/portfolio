@@ -2,6 +2,7 @@
     position: relative;
     margin-inline: auto;
     max-width: 80%;
+    margin-block: 50px;
     &::after{ 
         content: "";
         margin-top: auto;
@@ -10,6 +11,17 @@
         background-color: rgb(255, 255, 255);
         box-shadow: 3px 3px 2px black;
        }
+       h2 {
+        margin-block: 50px;
+        font-size: var(--size-title);
+        color: var(--color-title);    
+      }
+      p {
+        font-size: var(--size-text);
+        color:var(--color-text);
+        filter: drop-shadow(5px 5px 3px rgb(52, 52, 52));
+        margin-bottom: 40px;
+      }
        
     }
     .grid-covers{
@@ -18,4 +30,5 @@
         grid-template-rows: 1fr 1fr 1fr;
         gap: 20px;
     }
+
        
