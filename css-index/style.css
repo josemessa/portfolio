@@ -6,6 +6,7 @@
  --color-title:black;
  --color-text: black;
  --size-text:27px;
+ --weight-title: 800;
 }
 
 
@@ -34,10 +35,7 @@ img {
 a{
   cursor: pointer;
 }
-body{ 
 
-
-}
 .idiomas{
 display: flex;
 gap: 10px;

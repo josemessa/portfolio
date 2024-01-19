@@ -1,5 +1,5 @@
-.trabajos{      
-    position: relative;
+.trabajos{  
+      position: relative;
     margin-inline: auto;
     max-width: 80%;
     margin-block: 50px;
@@ -15,7 +15,11 @@
         margin-top: 100px;
         margin-bottom: 50px;
         font-size: var(--size-title);
-        color: var(--color-title);    
+        color: var(--color-title); 
+        font-weight: var(--weight-title);
+        text-transform: uppercase;
+        text-shadow: 2px 2px 0.5px rgb(0, 139, 253);
+           
       }
       p {
         font-size: var(--size-text);
@@ -38,7 +42,7 @@
     }
     .grid-web{
       row-gap: 30px;
-      column-gap: 40px;
+      column-gap: 60px;
       display: grid;
       grid-template-columns:1fr 1fr;
       
@@ -48,3 +52,11 @@
     }
   }
        
+  body > section.trabajos > div.grid-web > h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0.5px rgb(0, 139, 253);
+  }
