@@ -11,7 +11,7 @@
     color: var(--color-title);    
     font-weight: var(--weight-title);
     text-transform: uppercase;
-    text-shadow: 2px 2px 0.5px rgb(0, 139, 253);
+    text-shadow: 2px 2px 0.5px rgb(110, 110, 110);
   }
   p {
     font-size: var(--size-text);

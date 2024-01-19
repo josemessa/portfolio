@@ -7,20 +7,18 @@
   background-image: url(../elements/background2.jpg);
   background-size: cover;
   background-position: center center; 
-
+.logo-nombre{
+  margin: 30px;
+}
   .main-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 5px; 
-
-    a {
+    display: flex;    
+   gap: 50px;
+   
+   a {
+      margin-block: 80px;
       text-transform: uppercase;
+      color: white;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      color: lightgrey;
-      width: 120px;
-      height: 60px;
       filter: drop-shadow(2px 2px 0px rgb(0, 0, 0));
         &:hover {
           filter: drop-shadow(2px 2px 0px rgb(4, 155, 255));
@@ -29,7 +27,7 @@
     div {
       width: 120px;
       height: 190px;
-      gap: 5px;
+      gap: 15px;
             img {
         width: 120px;
       }
