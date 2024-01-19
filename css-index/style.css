@@ -3,7 +3,8 @@
  --font-title:'Passion One', sans-serif;
  --font-text: 'M PLUS Code Latin', monospace;
  --size-title: 50px;
- --color-title:white;
+ --color-title:black;
+ --color-text: black;
  --size-text:27px;
 }
 
@@ -34,9 +35,7 @@ a{
   cursor: pointer;
 }
 body{ 
-  background-image: url(../elements/background2.jpg);
-  background-size: cover;
-  background-position: center center;
+
 
 }
 .idiomas{

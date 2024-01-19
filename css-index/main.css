@@ -4,16 +4,9 @@
   max-width: 100%;
   position: relative;
   overflow: hidden;
-  &::after{ 
-    content: "";
-    margin-top: auto;
-    margin-bottom: 5px;
-    width: 80%;
-    height: 3px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 3px 3px 2px black;
-   }
- 
+  background-image: url(../elements/background2.jpg);
+  background-size: cover;
+  background-position: center center; 
 
   .main-nav {
     display: flex;
@@ -43,10 +36,7 @@
   }
 
 }
-/* .main-nav{
-  position: fixed;
 
-} */
 .logo-nombre{
  
   p {

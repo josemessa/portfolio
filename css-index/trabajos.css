@@ -1,9 +1,7 @@
-.trabajos{
-    height: 1000px;
-    width: 80%;
-    display: flex;
+.trabajos{      
     position: relative;
     margin-inline: auto;
+    max-width: 80%;
     &::after{ 
         content: "";
         margin-top: auto;
@@ -12,5 +10,12 @@
         background-color: rgb(255, 255, 255);
         box-shadow: 3px 3px 2px black;
        }
-     
-}
+       
+    }
+    .grid-covers{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+       
