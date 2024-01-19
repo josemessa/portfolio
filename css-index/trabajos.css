@@ -12,7 +12,8 @@
         box-shadow: 3px 3px 2px black;
        }
        h2 {
-        margin-block: 50px;
+        margin-top: 100px;
+        margin-bottom: 50px;
         font-size: var(--size-title);
         color: var(--color-title);    
       }
@@ -28,7 +29,22 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 20px;
+        
+    }
+    .grid-web{
+      display: flex;
+      gap: 100px;
+      
+    }
+    .grid1 div{
+      display: flex;
+     margin-bottom: 25px;
+     box-shadow: 15px 15px 5px rgb(32, 32, 32);
+    }
+    .grid2 div{
+      display: flex;
+     margin-bottom: 25px;
+     box-shadow: 15px 15px 5px rgb(32, 32, 32);
     }
 
        
