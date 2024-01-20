@@ -49,9 +49,12 @@
       div{
         display: flex;
       box-shadow: 15px 15px 5px rgb(32, 32, 32);
+     
     }
   }
-       
+  .cover:hover{
+    transform: translate(-5px, -5px);
+  } 
   body > section.trabajos > div.grid-web > h2{
     margin-top: 15px;
     margin-bottom: 15px;
