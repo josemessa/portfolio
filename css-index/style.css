@@ -3,9 +3,11 @@
  --font-title:'Passion One', sans-serif;
  --font-text:'Russo One', sans-serif;
  --size-title: 30px;
- --color-title:black;
- --color-text: black;
- --size-text:18px;
+ --color-title:rgb(255, 255, 255);
+ --color-section:black;
+ --color-text: rgb(255, 255, 255);
+
+ --size-text:25px;
  --weight-title: 800;
 }
 
@@ -35,11 +37,13 @@ img {
 a{
   cursor: pointer;
 }
-
+body{
+  background-color: black;
+}
 .idiomas{
 display: flex;
 gap: 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-shadow: black;
   position: fixed;
   bottom:5%;
@@ -50,5 +54,8 @@ gap: 10px;
    p{
     display: flex;
     justify-content: center;
+    &:nth-child(1){
+      color: white;
+    }
    } 
 }

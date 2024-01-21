@@ -4,9 +4,7 @@
   max-width: 100%;
   position: relative;
   overflow: hidden;
-  background-image: url(../elements/background2.jpg);
-  background-size: cover;
-  background-position: center center; 
+
 .logo-nombre{
   margin: 30px;
   
@@ -18,9 +16,9 @@
    a {
       margin-block: 80px;
       text-transform: uppercase;
-      color: white;
+      color:var(--color-text);
       display: flex;
-      filter: drop-shadow(2px 2px 0px rgb(0, 0, 0));
+      filter: drop-shadow(2px 2px 0px rgb(76, 76, 76));
         &:hover {
           filter: drop-shadow(2px 2px 0px rgb(4, 155, 255));
         }
@@ -38,13 +36,11 @@
 }
 
 .logo-nombre{
-  position: sticky;
-  top: 0;
-  p {
+   p {
    display: flex;
    justify-content: center;
    font-size: 25px;
-   color: white;
+   color: var(--color-text);
    font-family: var(--font-text);
    &:nth-child(3){
      font-size: 15px;
@@ -59,20 +55,17 @@
   display: flex;
   width: 120px;
   height: 120px;
-  fill: white;
+  fill: rgb(255, 255, 255);
     
 }
-a:hover {
-  filter: drop-shadow(2px 2px 0px rgb(4, 155, 255));
-  
-}
+
 
 
 .big-logo {
   position: absolute;
   top: -400px;
   right: -400px;
-  filter: drop-shadow(20px 20px 5px rgb(0, 0, 0));
+  filter: drop-shadow(10px 10px 3px rgb(44, 44, 44));
   animation: mainlogo 5s forwards;
 }
 
@@ -95,9 +88,9 @@ a:hover {
   width: 900px;
   left: 15%;
   top: 30%;
-  color: white;
+  color: var(--color-title);
   font-size: 60px;
-  filter: drop-shadow(15px 15px 3px rgb(0, 0, 0));
+  filter: drop-shadow(10px 10px 3px rgb(44, 44, 44));
   p:nth-child(1){
     animation: presentacion 4s;
   }
@@ -136,13 +129,14 @@ a:hover {
   left: 20%;
   top: 70%;
   justify-content: center;
-  color: white;
+  color: var(--color-text);
   width: 130px;
   border: 1px solid;
-  border-color: white ;
+  border-color: rgb(0, 0, 0) ;
   padding: 15px;
   cursor: pointer;
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-        
+  &:hover{
+  box-shadow: 10px 10px 10px rgb(0, 255, 162), -10px -10px 10px rgb(0, 255, 68);
+  }
 }
 
