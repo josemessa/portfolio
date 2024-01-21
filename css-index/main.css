@@ -9,6 +9,7 @@
   background-position: center center; 
 .logo-nombre{
   margin: 30px;
+  
 }
   .main-nav {
     display: flex;    
@@ -37,7 +38,8 @@
 }
 
 .logo-nombre{
- 
+  position: sticky;
+  top: 0;
   p {
    display: flex;
    justify-content: center;
