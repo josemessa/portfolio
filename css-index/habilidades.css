@@ -5,7 +5,7 @@
   width: 80%;
   margin-inline: auto;
   padding-block: 50px;
-  box-shadow: 10px 10px 10px rgb(126, 249, 255), -10px -10px 10px rgb(147, 255, 150);
+  box-shadow: -10px -10px 10px rgb(30, 176, 255), 10px 10px 10px rgb(238, 49, 255);
 
   
  
@@ -45,6 +45,11 @@
     img {
       filter: drop-shadow(5px 5px 3px rgb(61, 61, 61));
       height: 120px;
+      &:hover{
+        filter: drop-shadow(5px 5px 3px rgb(0, 139, 253));
+        
+
+      }
 
     }
   }

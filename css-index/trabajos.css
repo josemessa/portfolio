@@ -1,8 +1,11 @@
 .trabajos{  
+  background-color: white;
       position: relative;
     margin-inline: auto;
     max-width: 80%;
-    margin-block: 50px;
+    border-radius: 0px 90px 0px 90px ;
+    box-shadow: 10px 10px 10px rgb(30, 176, 255), -10px -10px 10px rgb(238, 49, 255);
+    
     &::after{ 
         content: "";
         margin-top: auto;
@@ -12,23 +15,44 @@
         box-shadow: 3px 3px 2px black;
        }
        h2 {
+        margin-left: 10%;
         margin-top: 100px;
+        padding-top: 50px;
         margin-bottom: 50px;
         font-size: var(--size-title);
-        color: var(--color-title); 
+        color: var(--color-section); 
         font-weight: var(--weight-title);
         text-transform: uppercase;
         text-shadow: 2px 2px 0.5px rgb(0, 139, 253);
            
       }
       p {
+        margin-left: 10%;
         font-size: var(--size-text);
-        color:var(--color-text);
-        filter: drop-shadow(5px 5px 3px rgb(52, 52, 52));
+        color:var(--color-section);
+        filter: drop-shadow(2px 2px 0px rgb(171, 165, 165));
         margin-bottom: 40px;
       }
        
     }
+    .grid-web{
+      row-gap: 30px;
+      column-gap: 60px;
+      display: grid;
+      grid-template-columns:1fr 1fr;
+      width: 80%;
+      margin-inline: auto;
+      
+      div{
+        display: flex;
+      box-shadow: 15px 15px 5px rgb(32, 32, 32);
+      &:hover{
+        transform: translate(-5px, -5px);
+        box-shadow: 15px 15px 5px  rgb(0, 139, 253);
+      }
+     
+    }
+  }
     .grid-covers{
         display: grid;
         gap: 30px;
@@ -40,18 +64,6 @@
         }
         
     }
-    .grid-web{
-      row-gap: 30px;
-      column-gap: 60px;
-      display: grid;
-      grid-template-columns:1fr 1fr;
-      
-      div{
-        display: flex;
-      box-shadow: 15px 15px 5px rgb(32, 32, 32);
-     
-    }
-  }
   .cover:hover{
     transform: translate(-5px, -5px);
   } 
