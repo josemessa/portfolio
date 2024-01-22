@@ -3,7 +3,7 @@
       position: relative;
     margin-inline: auto;
     max-width: 80%;
-    border-radius: 0px 90px 0px 90px ;
+    border-radius: 0px 250px 0px 250px ;
     box-shadow: 10px 10px 10px rgb(30, 176, 255), -10px -10px 10px rgb(238, 49, 255);
     
     &::after{ 
