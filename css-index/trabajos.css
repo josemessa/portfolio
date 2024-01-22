@@ -41,31 +41,10 @@
     &:hover {
       transform: translate(-5px, -5px);
     }
-  }
+      }
 }
-.grid-covers {
-  display: grid;
-  gap: 30px;
-  max-width: 80%;
-  margin-inline: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  div {
-    display: flex;
-    box-shadow: 15px 15px 5px rgb(32, 32, 32);
-  }
-}
-.cover:hover {
-  transform: translate(-5px, -5px);
-}
-body > section.trabajos > div.grid-web > h2 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 30px;
-  font-weight: var(--weight-title);
-  text-transform: uppercase;
-  text-shadow: 2px 2px 0.5px rgb(0, 139, 253);
-}
+
+
 
 #trabajos div:nth-child(1) p a {
   border-bottom: 2px solid rgb(44, 165, 226);

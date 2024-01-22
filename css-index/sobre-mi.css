@@ -9,7 +9,7 @@
   width: 80%;
   margin-inline: auto;
   padding-block: 50px;
-  transition: all 0.5s;
+  transition: all 1s;
   margin-bottom: 80px;
   &:hover {
     box-shadow: -10px -10px 10px rgb(44, 165, 226),
@@ -57,5 +57,5 @@
   }
 }
 
-
+}
 
