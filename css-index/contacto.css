@@ -1,0 +1,11 @@
+.contacto{
+    background-color: black;
+    border-top: 5px solid white;
+    color: white;
+    font-size: 50px;
+    div{
+        padding-block: 80px;
+        max-width: 80%;
+        margin-inline: auto;
+    }
+}
