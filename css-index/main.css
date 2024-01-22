@@ -1,10 +1,10 @@
 .main {
   display: flex;
-  height: 920px;
+  height: 950px;
   max-width: 100%;
   position: relative;
   overflow: hidden;
-  background-color: black;
+ 
 
 .logo-nombre{
   margin: 30px;
@@ -22,7 +22,7 @@
       display: flex;
       filter: drop-shadow(2px 2px 0px rgb(76, 76, 76));
         &:hover {
-          filter: drop-shadow(2px 2px 0px rgb(4, 155, 255));
+          filter: drop-shadow(2px 2px 0px rgb(44, 165, 226));
         }
     }
     div {
@@ -132,13 +132,12 @@
   top: 70%;
   justify-content: center;
   color: var(--color-text);
-  width: 130px;
-  border: 1px solid;
-  border-color: rgb(0, 0, 0) ;
-  padding: 15px;
+  padding: 20px;
+  border: 5px solid white;
+
   cursor: pointer;
   &:hover{
-  box-shadow: 10px 10px 10px rgb(30, 176, 255), -10px -10px 10px rgb(238, 49, 255);
+  box-shadow: 10px 10px 10px rgb(44, 165, 226), -10px -10px 10px rgb(238, 49, 255);
   }
 }
 

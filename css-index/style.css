@@ -2,12 +2,12 @@
  --color-nav:rgb(53, 53, 53);
  --font-title:'Passion One', sans-serif;
  --font-text:'Russo One', sans-serif;
- --size-title: 30px;
+ --size-title: 35px;
  --color-title:rgb(255, 255, 255);
  --color-section:black;
  --color-text: rgb(255, 255, 255);
 
- --size-text:25px;
+ --size-text:30px;
  --weight-title: 800;
 }
 
@@ -38,24 +38,18 @@ a{
   cursor: pointer;
 }
 body{
-  background-color: rgb(0, 0, 0);
+  background-image: url(../elements/background.webp);
+  background-size: cover;
 }
 .idiomas{
 display: flex;
 gap: 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-shadow: black;
   position: fixed;
   bottom:5%;
  right: 3%;
    img{
     height: 40px;
-   }
-   p{
-    display: flex;
-    justify-content: center;
-    &:nth-child(1){
-      color: white;
-    }
    } 
 }
