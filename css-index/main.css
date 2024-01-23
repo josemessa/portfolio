@@ -143,3 +143,19 @@
   }
 }
 
+@media screen and (max-width: 768px){
+  .main-nav{
+    display: flex;
+    gap:5px;
+  }
+  .big-logo{
+    display: none;
+  }
+  .interest-links{
+    display: none;
+  }
+  .present {
+    font-size: 40px;
+    max-width: 80%;
+  }
+}
