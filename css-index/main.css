@@ -12,33 +12,31 @@
   margin: 30px;
   
 }
-  .main-nav {
-    display: flex;    
-   gap: 50px;
-   
-   a {
-    height: 30px;
-      margin-block: 80px;
-      text-transform: uppercase;
-      color:var(--color-text);
-      display: flex;
-      filter: drop-shadow(2px 2px 0px rgb(76, 76, 76));
-        &:hover {
-          filter: drop-shadow(2px 2px 0px rgb(44, 165, 226));
-        }
-    }
-    div {
-      width: 120px;
-      height: 190px;
-      gap: 15px;
-            img {
-        width: 120px;
+}
+.main-nav {
+  display: flex;    
+ gap: 50px;
+ 
+ a {
+  height: 30px;
+    margin-block: 80px;
+    text-transform: uppercase;
+    color:var(--color-text);
+    display: flex;
+    filter: drop-shadow(2px 2px 0px rgb(76, 76, 76));
+      &:hover {
+        filter: drop-shadow(2px 2px 0px rgb(44, 165, 226));
       }
+  }
+  div {
+    width: 120px;
+    height: 190px;
+    gap: 15px;
+          img {
+      width: 120px;
     }
   }
-
 }
-
 .logo-nombre{
    p {
    display: flex;
@@ -146,7 +144,7 @@
 @media screen and (max-width: 768px){
   .main-nav{
     display: flex;
-    gap:5px;
+    gap:25px;
   }
   .big-logo{
     display: none;
