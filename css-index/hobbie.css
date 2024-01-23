@@ -33,7 +33,9 @@
     grid-template-rows: 1fr 1fr;
     div {
         display: flex;
-       }
+        
+    }
+}
 .hobbie p{
     margin-inline: auto;
     max-width: 80%;
@@ -41,4 +43,3 @@
     font-size: var(--size-text);
     color: var(--color-title);
 }
-  }
