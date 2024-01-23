@@ -1,5 +1,5 @@
 .contacto{
-    display: flex;
+  padding-block: 80px;
     background-color: black;
     border-top: 5px solid white;
     color: white;
@@ -7,12 +7,9 @@
         display: flex;
         gap: 40px;
         margin-inline: auto;
-        padding-block: 80px;
-        max-width: 80%;
-       
-            
-        
-       
+        padding-block: 10px;
+        max-width: 80%;    
+        justify-content: center;
     }
 }
 .contacto a{
@@ -21,4 +18,7 @@
     &:hover {
         filter: drop-shadow(2px 2px 0px rgb(44, 165, 226));
       }
+}
+.contacto h3{
+    font-size: 25px;
 }
