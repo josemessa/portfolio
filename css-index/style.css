@@ -1,16 +1,14 @@
 :root {
- --color-nav:rgb(53, 53, 53);
- --font-title:'Passion One', sans-serif;
- --font-text:'Russo One', sans-serif;
- --size-title: 35px;
- --color-title:rgb(255, 255, 255);
- --color-section:black;
- --color-text: rgb(255, 255, 255);
-
- --size-text:30px;
- --weight-title: 800;
+  --color-nav: rgb(53, 53, 53);
+  --font-title: "Passion One", sans-serif;
+  --font-text: "Russo One", sans-serif;
+  --size-title: 35px;
+  --color-title: rgb(255, 255, 255);
+  --color-section: black;
+  --color-text: rgb(255, 255, 255);
+  --size-text: 30px;
+  --weight-title: 800;
 }
-
 
 *:where(
     :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
@@ -24,8 +22,8 @@
 html {
   scroll-behavior: smooth;
 
-  font-family: 'Passion One', sans-serif;
-  font-family: 'Russo One', sans-serif;
+  font-family: "Passion One", sans-serif;
+  font-family: "Russo One", sans-serif;
 }
 li {
   list-style: none;
@@ -34,22 +32,22 @@ img {
   max-width: 100%;
   height: auto;
 }
-a{
+a {
   cursor: pointer;
 }
-body{
+body {
   background-image: url(../elements/background.webp);
   background-size: cover;
 }
-.idiomas{
-display: flex;
-gap: 10px;
+.idiomas {
+  display: flex;
+  gap: 10px;
   color: rgb(255, 255, 255);
   text-shadow: black;
   position: fixed;
-  bottom:5%;
- right: 3%;
-   img{
+  bottom: 5%;
+  right: 3%;
+  img {
     height: 40px;
-   } 
+  }
 }

@@ -7,7 +7,7 @@
   width: 80%;
   margin-top: 100px;
   margin-inline: auto;
- 
+
   margin-block: 100px;
   transition: all 1s;
   margin-bottom: 80px;
@@ -16,7 +16,7 @@
       10px 10px 10px rgb(238, 49, 255);
     opacity: 1;
   }
-  .habilidades{
+  .habilidades {
     display: flex;
   }
 
@@ -29,20 +29,18 @@
     text-shadow: 2px 2px 0.5px rgb(55, 55, 55);
     gap: 30px;
     padding: 60px;
-   
-   
   }
-  .lenguajes{margin-block: 50px;
-    padding-right: 60px;    
-    display:flex ;
+  .lenguajes {
+    margin-block: 50px;
+    padding-right: 60px;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap:25px;
+    gap: 25px;
     div {
       display: flex;
       gap: 25px;
       img {
-      
         filter: drop-shadow(5px 5px 3px rgb(61, 61, 61));
         height: 140px;
         &:hover {
@@ -50,19 +48,18 @@
         }
       }
     }
-  
-  h3 {  
+
+    h3 {
       color: var(--color-title);
-    font-size: 30px;
-    font-weight: var(--weight-title);
-    text-transform: uppercase;
-    text-shadow: 2px 2px 0.5px rgb(55, 55, 55);
+      font-size: 30px;
+      font-weight: var(--weight-title);
+      text-transform: uppercase;
+      text-shadow: 2px 2px 0.5px rgb(55, 55, 55);
+    }
   }
 }
 
-}
-
-.historia{
+.historia {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -71,32 +68,30 @@
   margin-inline: auto;
   font-size: 20px;
   padding-block: 50px;
-
 }
 
-@media screen and (max-width: 768px){
-  .sobre-mi{
+@media screen and (max-width: 768px) {
+  .sobre-mi {
     opacity: 1;
   }
-  .historia{
+  .historia {
     flex-direction: column;
     padding-top: 150px;
   }
-  .habilidades{
+  .habilidades {
     flex-direction: column;
     margin-inline: auto;
-    .skills{
+    .skills {
       max-width: 90%;
     }
   }
-  .lenguajes{
+  .lenguajes {
     padding-bottom: 120px;
     padding-left: 60px;
   }
-  .lenguajes div{
+  .lenguajes div {
     flex-direction: column;
   }
-  .lenguajes h3{
-
+  .lenguajes h3 {
   }
 }

@@ -6,69 +6,65 @@
   overflow: hidden;
   background-color: black;
   border-bottom: 5px solid white;
- 
 
-.logo-nombre{
-  margin: 30px;
-  
-}
+  .logo-nombre {
+    margin: 30px;
+  }
 }
 .main-nav {
-  display: flex;    
- gap: 50px;
- 
- a {
-  height: 30px;
+  display: flex;
+  gap: 50px;
+
+  a {
+    height: 30px;
     margin-block: 80px;
     text-transform: uppercase;
-    color:var(--color-text);
+    color: var(--color-text);
     display: flex;
     filter: drop-shadow(2px 2px 0px rgb(76, 76, 76));
-      &:hover {
-        filter: drop-shadow(2px 2px 0px rgb(44, 165, 226));
-      }
+    &:hover {
+      filter: drop-shadow(2px 2px 0px rgb(44, 165, 226));
+    }
   }
   div {
     width: 120px;
     height: 190px;
     gap: 15px;
-          img {
+    img {
       width: 120px;
     }
   }
 }
-.logo-nombre{
-   p {
-   display: flex;
-   justify-content: center;
-   font-size: 25px;
-   color: var(--color-text);
-   font-family: var(--font-text);
-   &:nth-child(3){
-     font-size: 15px;
-     text-transform: uppercase;
-     font-family: var(--font-title);
-
-   }
-}
+.logo-nombre {
+  p {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: var(--color-text);
+    font-family: var(--font-text);
+    &:nth-child(3) {
+      font-size: 15px;
+      text-transform: uppercase;
+      font-family: var(--font-title);
+    }
+  }
 }
 
 .interest-links {
   display: flex;
   width: 120px;
   height: 120px;
-  fill: rgb(255, 255, 255);    
+  fill: rgb(255, 255, 255);
 }
-
-
 
 .big-logo {
   width: 900px;
   position: absolute;
   top: -400px;
-  right: -400px;  
+  right: -400px;
   animation: mainlogo 5s forwards;
-  filter: drop-shadow(10px 10px 0px rgb(44, 165, 226)) drop-shadow( -10px -10px 0px rgb(238, 49, 255))
+  filter: drop-shadow(10px 10px 0px rgb(44, 165, 226))
+    drop-shadow(-10px -10px 0px rgb(238, 49, 255));
 }
 
 @keyframes mainlogo {
@@ -82,9 +78,9 @@
   }
 }
 
-.present{
+.present {
   display: flex;
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   flex-direction: column;
   position: absolute;
   width: 900px;
@@ -93,38 +89,40 @@
   color: var(--color-title);
   font-size: 60px;
   filter: drop-shadow(10px 10px 3px rgb(44, 44, 44));
-  p:nth-child(1){
+  p:nth-child(1) {
     animation: presentacion 4s;
   }
-  p:nth-child(2){
+  p:nth-child(2) {
     opacity: 0;
     animation: presentacion 4s forwards;
-    animation-delay: 2s;  
-
+    animation-delay: 2s;
   }
-  p:nth-child(3){
+  p:nth-child(3) {
     opacity: 0;
     animation: presentacion 4s forwards;
-    animation-delay: 4s;  
-
-  
+    animation-delay: 4s;
   }
 }
-@keyframes presentacion{
-  from{opacity: 0;}
-  to{opacity: 1;}
+@keyframes presentacion {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-
-@keyframes presentacion-2{
-  from{
+@keyframes presentacion-2 {
+  from {
     opacity: 0;
     transform: translate(0, 0);
-}
-  to{opacity: 1;}
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.contactame{
+.contactame {
   display: flex;
   position: absolute;
   font-size: 20px;
@@ -136,20 +134,21 @@
   border: 1px solid white;
 
   cursor: pointer;
-  &:hover{
-  box-shadow: 10px 10px 10px rgb(44, 165, 226), -10px -10px 10px rgb(238, 49, 255);
+  &:hover {
+    box-shadow: 10px 10px 10px rgb(44, 165, 226),
+      -10px -10px 10px rgb(238, 49, 255);
   }
 }
 
-@media screen and (max-width: 768px){
-  .main-nav{
+@media screen and (max-width: 768px) {
+  .main-nav {
     display: flex;
-    gap:25px;
+    gap: 25px;
   }
-  .big-logo{
+  .big-logo {
     display: none;
   }
-  .interest-links{
+  .interest-links {
     display: none;
   }
   .present {

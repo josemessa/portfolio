@@ -1,56 +1,54 @@
-.hobbie{
-    max-width: 80%;
-    border: 5px solid white;
-    background-color: black;
-    border-radius: 0px 250px 0px 250px;
-    margin-inline: auto;
-    margin-block: 80px;
-    padding-block: 80px;
-    opacity: 0;
-    box-shadow: -10px -10px 10px rgb(238, 49, 255),  10px 10px 10px rgb(44, 165, 226);
-    transition: all 1s;
-    &:hover{
-        opacity: 1;
-    }
+.hobbie {
+  max-width: 80%;
+  border: 5px solid white;
+  background-color: black;
+  border-radius: 0px 250px 0px 250px;
+  margin-inline: auto;
+  margin-block: 80px;
+  padding-block: 80px;
+  opacity: 0;
+  box-shadow: -10px -10px 10px rgb(238, 49, 255),
+    10px 10px 10px rgb(44, 165, 226);
+  transition: all 1s;
+  &:hover {
+    opacity: 1;
+  }
 }
 .cover:hover {
-    transform: translate(-5px, -5px);
-  }
-  
-.grid-covers  div:nth-child(1)  img{
-    &:hover {
-        filter: drop-shadow(2px 2px 0px rgb(0, 0, 0));
-      }
-   
-  
-  }
-  .grid-covers {
-    display: grid;
-    gap: 30px;
-    max-width: 80%;
-    margin-inline: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    div {
-        display: flex;
-        
-    }
-}
-.hobbie p{
-    margin-inline: auto;
-    max-width: 80%;
-    margin-bottom: 50px;
-    font-size: var(--size-text);
-    color: var(--color-title);
+  transform: translate(-5px, -5px);
 }
 
-@media screen and (max-width: 768px){
-    .hobbie {
-        opacity: 1;
-        div{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 50px;
-    }
+.grid-covers div:nth-child(1) img {
+  &:hover {
+    filter: drop-shadow(2px 2px 0px rgb(0, 0, 0));
+  }
 }
+.grid-covers {
+  display: grid;
+  gap: 30px;
+  max-width: 80%;
+  margin-inline: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  div {
+    display: flex;
+  }
+}
+.hobbie p {
+  margin-inline: auto;
+  max-width: 80%;
+  margin-bottom: 50px;
+  font-size: var(--size-text);
+  color: var(--color-title);
+}
+
+@media screen and (max-width: 768px) {
+  .hobbie {
+    opacity: 1;
+    div {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+    }
+  }
 }
