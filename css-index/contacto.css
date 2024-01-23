@@ -1,11 +1,24 @@
 .contacto{
+    display: flex;
     background-color: black;
     border-top: 5px solid white;
     color: white;
-    font-size: 50px;
     div{
+        display: flex;
+        gap: 40px;
+        margin-inline: auto;
         padding-block: 80px;
         max-width: 80%;
-        margin-inline: auto;
+       
+            
+        
+       
     }
+}
+.contacto a{
+    fill: white;
+    gap: 25px;
+    &:hover {
+        filter: drop-shadow(2px 2px 0px rgb(44, 165, 226));
+      }
 }

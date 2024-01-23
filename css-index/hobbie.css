@@ -18,9 +18,10 @@
   }
   
 .grid-covers  div:nth-child(1)  img{
-    height:210px;
-    margin-top: 40px;
-    filter: drop-shadow(-5px 5px 5px rgb(238, 49, 255)) 
+    &:hover {
+        filter: drop-shadow(2px 2px 0px rgb(0, 0, 0));
+      }
+   
   
   }
   .grid-covers {
@@ -32,8 +33,7 @@
     grid-template-rows: 1fr 1fr;
     div {
         display: flex;
-    }
-}
+       }
 .hobbie p{
     margin-inline: auto;
     max-width: 80%;
@@ -41,3 +41,4 @@
     font-size: var(--size-text);
     color: var(--color-title);
 }
+  }
