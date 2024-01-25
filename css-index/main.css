@@ -70,8 +70,8 @@
   width: 900px;
   position: absolute;
   opacity: 0;
-  top: -350px;
-  right: -400px;
+  top: -50px;
+  right: 0px;
   animation: mainlogo 5s forwards;
   animation-delay: 5s;
 
