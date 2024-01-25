@@ -74,6 +74,8 @@
   right: 0px;
   animation: mainlogo 5s forwards;
   animation-delay: 5s;
+  filter: drop-shadow(10px 10px 0px rgb(44, 165, 226))
+    drop-shadow(-10px -10px 0px rgb(238, 49, 255));
 
 }
 
