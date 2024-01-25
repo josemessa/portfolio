@@ -158,6 +158,9 @@
   .big-logo {
     display: none;
   }
+  .sobrelogo{
+   display: none;
+  }
   .interest-links {
     display: none;
   }
