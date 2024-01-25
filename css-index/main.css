@@ -70,13 +70,12 @@
   width: 900px;
   position: absolute;
   opacity: 0;
-  top: -50px;
-  right: 0px;
-  animation: mainlogo 5s forwards;
-  animation-delay: 5s;
+  bottom: -110px;
+  right: 100px;
   filter: drop-shadow(10px 10px 0px rgb(44, 165, 226))
     drop-shadow(-10px -10px 0px rgb(238, 49, 255));
-
+    animation: sobrelogo 3s forwards;
+    animation-delay: 4s;
 }
 
 @keyframes mainlogo {
@@ -89,6 +88,16 @@
     opacity: 1;
   }
 }
+
+@keyframes sobrelogo{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
 
 .present {
   display: flex;
