@@ -69,8 +69,8 @@
   top: -350px;
   right: -400px;
   animation: mainlogo 5s forwards;
-  filter: drop-shadow(10px 10px 0px rgb(44, 165, 226))
-    drop-shadow(-10px -10px 0px rgb(238, 49, 255));
+  filter: drop-shadow(10px 10px 4px rgb(44, 165, 226))
+    drop-shadow(-10px -10px 4px rgb(238, 49, 255));
 }
 /* .sobrelogo{
   width: 900px;
