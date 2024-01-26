@@ -70,11 +70,10 @@
   width: 900px;
   position: absolute;
   opacity: 0;
-  bottom: -110px;
-  right: 100px;
-  filter: drop-shadow(10px 10px 0px rgb(44, 165, 226))
-    drop-shadow(-10px -10px 0px rgb(238, 49, 255));
-    animation: sobrelogo 3s forwards;
+  top: -150px;
+  right: -200px;
+
+    animation: sobrelogo 5s forwards;
     animation-delay: 4s;
 }
 
